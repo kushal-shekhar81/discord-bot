@@ -1,1 +1,1 @@
-worker: python echo-compliment-bot.py
+worker: python Bot.py
