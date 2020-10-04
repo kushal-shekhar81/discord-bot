@@ -1,6 +1,9 @@
 import discord
+import os
 from discord.ext.commands import Bot
 from random import choice
+
+disc = os.getenv('DISCORD_TOKEN')
 
 bot = Bot("!")
 
@@ -47,6 +50,6 @@ async def joke(ctx, member:discord.Member):
     jokeToSend += member.mention
     await ctx.send(jokeToSend)
 
-bot.run('') 
+bot.run('DISCORD_TOKEN') 
 
 #Replace your bot token inside the (''), and run the program
