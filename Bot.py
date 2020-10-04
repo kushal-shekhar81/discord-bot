@@ -3,6 +3,8 @@ import os
 from discord.ext.commands import Bot
 from random import choice
 
+#MAde some changes for heroku deploy :)
+
 disc = os.getenv('DISCORD_TOKEN')
 
 bot = Bot("!")
