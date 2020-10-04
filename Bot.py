@@ -52,6 +52,6 @@ async def joke(ctx, member:discord.Member):
     jokeToSend += member.mention
     await ctx.send(jokeToSend)
 
-bot.run('DISCORD_TOKEN')  
+bot.run(DISCORD_TOKEN)  
 
 #Replace your bot token inside the (''), and run the program
